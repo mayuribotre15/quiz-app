@@ -11,111 +11,111 @@ function CQuiz(que, o1, o2, o3, o4, ans, d) {
 
 // Question 1
 var q1 = new CQuiz(
-	'Which function among the following lets to register a function to be invoked repeatedly after a certain time?',
-	'setTimeout()',
-	'setTotaltime()',
-	'setInterval()',
-	'none of the mentioned',
-	3,
+	'What is the full form of SQL?',
+	'Structured Query List',
+	'Structure Query Language',
+	'Sample Query Language',
+	'None of these',
+	2,
 	0
 );
 
 // Question 2
 var q2 = new CQuiz(
-	'To which object does the location property belong?',
-	'Window',
-	'Position',
-	'Element',
-	'Location',
-	1,
+	'Which of the following is not a DDL command?',
+	'TRUNCATE',
+	'ALTER',
+	'CREATE',
+	'UPDATE',
+	4,
 	0
 );
 
 // Question 3
 var q3 = new CQuiz(
-	'What is the result of the following code snippet? <br> <pre> window.location === document.location </pre>',
-	'False',
-	'True',
-	'1',
-	'0',
-	2,
+	'Which of the following are TCL commands?',
+	'COMMIT and ROLLBACK',
+	'UPDATE and TRUNCATE',
+	'SELECT and INSERT',
+	'GRANT and REVOKE',
+	1,
 	0
 );
 
 // Question 4
 var q4 = new CQuiz(
-	'Which of the following is not a framework?',
-	'jQuery',
-	'.NET',
-	'JavaScript',
-	'None of the mentioned',
-	3,
+	'Which statement is used to delete all rows in a table without having the action logged?',
+	'DELETE',
+	'REMOVE',
+	'DROP',
+	'TRUNCATE',
+	4,
 	0
 );
 
 // Question 5
 var q5 = new CQuiz(
-	'Inside which HTML element do we put the JavaScript?',
-	'&lt;javascript&gt;',
-	'&lt;script&gt;',
-	'&lt;scripting&gt;',
-	'&lt;js&gt;',
-	2,
+	'Which of the following is not Constraint in SQL?',
+	'Primary Key',
+	'Not Null',
+	'Check',
+	'Union',
+	4,
 	0
 );
 
 // Question 6
 var q6 = new CQuiz(
-	'What is the correct JavaScript syntax to change the content of the HTML element below? <br> <pre>&lt;p id="demo"&gtThis is made by Owais.&lt;/p&gt</pre>',
-	'document.getElementByName("p").innerHTML = "Hello World!";',
-	'#demo.innerHTML = "Hello World!";',
-	'document.getElementById("demo").innerHTML = "Hello World!";',
-	'document.getElement("p").innerHTML = "Hello World!";',
-	3,
+	'Which of the following is not a valid aggregate function?',
+	'COUNT',
+	'COMPUTE',
+	'SUM',
+	'MAX',
+	2,
 	0
 );
 
 // Question 7
 var q7 = new CQuiz(
-	'What is the correct syntax for referring to an external script called "script.js"?',
-	'&lt;script src="script.js"&gt;',
-	'&lt;script href="script.js"&gt;',
-	'&lt;script name="script.js"&gt;',
-	'&lt;script link="script.js"&gt;',
-	1,
+	'Which of the following statement is correct to display all the cities whose humidity is in the range of 60 to 75 from the "whether" table?',
+	'SELECT city FROM weather WHERE humidity IN (60 to 75)',
+	'SELECT city FROM weather WHERE humidity BETWEEN 60 AND 75',
+	'SELECT city FROM weather WHERE humidity NOT IN (60 AND 75)',
+	'SELECT city FROM weather WHERE humidity NOT BETWEEN 60 AND 75',
+	2,
 	0
 );
 
 // Question 8
 var q8 = new CQuiz(
-	'How do you write "Hello World" in an alert box?',
-	'alert("Hello World");',
-	'msgBox("Hello World");',
-	'prompt("Hello World");',
-	'alertBox("Hello World");',
-	1,
+	'Which statement is used to get all data from the student table whose name starts with p?',
+	'SELECT * FROM student WHERE name LIKE "%p%";',
+	'SELECT * FROM student WHERE name LIKE "p%";',
+	'SELECT * FROM student WHERE name LIKE "_p%";',
+	'SELECT * FROM student WHERE name LIKE "%p";',
+	2,
 	0
 );
 
 // Question 9
 var q9 = new CQuiz(
-	'How do you create a function in JavaScript?',
-	'function = myFunction()',
-	'function:myFunction()',
-	'function myFunction()',
-	'None of the mentioned',
+	'How can you change "Thomas" into "Michel" in the "LastName" column in the Users table?',
+	'UPDATE User SET LastName = "Thomas" INTO LastName = "Michel"',
+	'MODIFY Users SET LastName = "Michel" WHERE LastName = "Thomas"',
+	'UPDATE Users SET LastName = "Michel" WHERE LastName = "Thomas"',
+	'MODIFY Users SET LastName = "Thomas" INTO LastName = "Michel"',
 	3,
 	0
 );
 
 // Question 10
 var q10 = new CQuiz(
-	'How do you call a function named "myFunction"?',
-	'myFunction()',
-	'call function myFunction()',
-	'call myFunction()',
-	'None of the mentioned',
-	1,
+	'Which operator is used to compare a value to a specified list of values?',
+	'ANY',
+	'BETWEEN',
+	'ALL',
+	'IN',
+	4,
 	0
 );
 
